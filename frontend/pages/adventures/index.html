@@ -84,6 +84,7 @@
             </div>
             <!-- Display Adventures cards -->
             <div class="row" id="data"></div>
+            <button id="click">Add a adventure</button>
         </div>
     </div>
     <!-- Footer -->
@@ -106,7 +107,7 @@
             filterFunction,
             saveFiltersToLocalStorage,
             getFiltersFromLocalStorage,
-            generateFilterPillsAndUpdateDOM
+            generateFilterPillsAndUpdateDOM,
         } from "../../modules/adventures_page.js";
 
         // Declaring global variable adventure
@@ -126,7 +127,7 @@
 
             //Fetches the City from URL query param (here : window.location.search is an in-built browser property that returns the query param from URL, example: http://localhost:8081/?city=bengaluru => window.location.search would return "?city=bengaluru")
             let city = await getCityFromURL(window.location.search);
-
+            console.log(city)
             //Fetches the adventures for the particular city
             adventures = await fetchAdventures(city);
 

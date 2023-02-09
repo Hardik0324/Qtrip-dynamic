@@ -147,6 +147,9 @@ footer {
   border: 1px solid #eee;
   border-radius: 4px;
   padding: 16px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
   /* margin: 8px; */
 }
 

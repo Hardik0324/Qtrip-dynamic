@@ -15,7 +15,8 @@ async function fetchCities() {
   // TODO: MODULE_CITIES
   // 1. Fetch cities using the Backend API and return the data
   try {
-    let x = config.backendEndpoint+"/cities"
+    let x = `${config.backendEndpoint}/cities`
+    console.log(x);
     let a = await fetch(x)
     let data = await a.json();
     console.log(data);

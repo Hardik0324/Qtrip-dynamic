@@ -33,11 +33,11 @@ function addAdventureToDOM(adventures) {
   // console.log(adventures.length)
   for(let i=0; i<adventures.length; i++){
     let div1 = document.createElement("div");
-    div1.setAttribute("class", "col-6 col-sm-6 col-md-3 col-lg-3 mb-4");
+    div1.setAttribute("class", "col-6 col-sm-6 col-md-3 col-lg-3 mb-4 position-relative");
     let a = document.createElement("a");
-    let url = `${config.backendEndpoint}/detail?adventure=${adventures[0].id}`
+    let url = `${config.backendEndpoint}/detail?adventure=${adventures[i].id}`
     a.setAttribute("href", url);
-    a.setAttribute("id", adventures[0].id)
+    a.setAttribute("id", adventures[i].id)
     let div2 = document.createElement("div");
     div2.setAttribute("class", "activity-card");
     let p = document.createElement("p");
@@ -63,8 +63,8 @@ function addAdventureToDOM(adventures) {
     div5.append(p3, p4);
     div4.append(p1, p2);
     div3.append(div4, div5);
-    div2.append(img, div3, p);
-    a.append(div2);
+    div2.append(img, div3);
+    a.append(div2, p);
     div1.append(a);
     let div = document.getElementById("data");
     div.append(div1);

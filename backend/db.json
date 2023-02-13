@@ -246,6 +246,24 @@
           "image": "https://images.pexels.com/photos/1662770/pexels-photo-1662770.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
           "duration": 15,
           "category": "Hillside"
+        },
+        {
+          "id": "2843799642",
+          "name": "West Stian",
+          "costPerHead": 2065,
+          "currency": "INR",
+          "image": "https://images.pexels.com/photos/842711/pexels-photo-842711.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "duration": 1,
+          "category": "Beaches"
+        },
+        {
+          "id": "9406012165",
+          "name": "Balcel",
+          "costPerHead": 4197,
+          "currency": "INR",
+          "image": "https://images.pexels.com/photos/910411/pexels-photo-910411.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "duration": 6,
+          "category": "Hillside"
         }
       ]
     },
@@ -2536,6 +2554,34 @@
       "available": true,
       "reserved": false,
       "costPerHead": 1373
+    },
+    {
+      "id": "2843799642",
+      "name": "West Stian",
+      "subtitle": "This is a mind-blowing randomly generated adventure!",
+      "images": [
+        "https://images.pexels.com/photos/314937/pexels-photo-314937.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+        "https://images.pexels.com/photos/837745/pexels-photo-837745.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+        "https://images.pexels.com/photos/842711/pexels-photo-842711.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+      ],
+      "content": "A random paragraph can also be an excellent way for a writer to tackle writers' block. Writing block can often happen due to being stuck with a current project that the writer is trying to complete. By inserting a completely random paragraph from which to begin, it can take down some of the issues that may have been causing the writers' block in the first place. A random paragraph can also be an excellent way for a writer to tackle writers' block. Writing block can often happen due to being stuck with a current project that the writer is trying to complete. By inserting a completely random paragraph from which to begin, it can take down some of the issues that may have been causing the writers' block in the first place. A random paragraph can also be an excellent way for a writer to tackle writers' block. Writing block can often happen due to being stuck with a current project that the writer is trying to complete. By inserting a completely random paragraph from which to begin, it can take down some of the issues that may have been causing the writers' block in the first place. A random paragraph can also be an excellent way for a writer to tackle writers' block. Writing block can often happen due to being stuck with a current project that the writer is trying to complete.",
+      "available": true,
+      "reserved": false,
+      "costPerHead": 2065
+    },
+    {
+      "id": "9406012165",
+      "name": "Balcel",
+      "subtitle": "This is a mind-blowing randomly generated adventure!",
+      "images": [
+        "https://images.pexels.com/photos/2132180/pexels-photo-2132180.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+        "https://images.pexels.com/photos/1433052/pexels-photo-1433052.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+        "https://images.pexels.com/photos/910411/pexels-photo-910411.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+      ],
+      "content": "A random paragraph can also be an excellent way for a writer to tackle writers' block. Writing block can often happen due to being stuck with a current project that the writer is trying to complete. By inserting a completely random paragraph from which to begin, it can take down some of the issues that may have been causing the writers' block in the first place. A random paragraph can also be an excellent way for a writer to tackle writers' block. Writing block can often happen due to being stuck with a current project that the writer is trying to complete. By inserting a completely random paragraph from which to begin, it can take down some of the issues that may have been causing the writers' block in the first place. A random paragraph can also be an excellent way for a writer to tackle writers' block. Writing block can often happen due to being stuck with a current project that the writer is trying to complete. By inserting a completely random paragraph from which to begin, it can take down some of the issues that may have been causing the writers' block in the first place. A random paragraph can also be an excellent way for a writer to tackle writers' block. Writing block can often happen due to being stuck with a current project that the writer is trying to complete.",
+      "available": true,
+      "reserved": false,
+      "costPerHead": 4197
     }
   ],
   "reservations": []

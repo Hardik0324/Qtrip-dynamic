@@ -35,8 +35,7 @@ function addAdventureToDOM(adventures) {
     let div1 = document.createElement("div");
     div1.setAttribute("class", "col-6 col-sm-6 col-md-3 col-lg-3 mb-4 position-relative");
     let a = document.createElement("a");
-    let url = `${config.backendEndpoint}/detail?adventure=${adventures[i].id}`
-    a.setAttribute("href", url);
+    a.setAttribute("href", `./detail/?adventure=${adventures[i].id}`);
     a.setAttribute("id", adventures[i].id)
     let div2 = document.createElement("div");
     div2.setAttribute("class", "activity-card");

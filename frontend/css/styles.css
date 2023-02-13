@@ -196,10 +196,10 @@ footer {
   color: #fff;
   background: rgb(255, 145, 0);
   top: 0;
-  right: 5px;
+  right: 0;
   z-index: 1;
   margin-top: 16px;
-  margin-right: 0px;
+  margin-right: 8px;
   display: flex;
   justify-content: center;
   align-items: center;

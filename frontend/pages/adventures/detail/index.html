@@ -126,6 +126,7 @@
             addBootstrapPhotoGallery(adventureDetails.images);
             conditionalRenderingOfReservationPanel(adventureDetails);
             showBannerIfAlreadyReserved(adventureDetails);
+            captureFormSubmit(adventureId)
             function onPersonsChange(event) {
                 calculateReservationCostAndUpdateDOM(
                     adventureDetails,
@@ -135,8 +136,7 @@
             window.onPersonsChange = onPersonsChange;
         })();
         
-        let form = document.getElementById("myForm");
-        form.addEventListener('submit', captureFormSubmit)
+        
     </script>
 </body>
 

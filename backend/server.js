@@ -160,6 +160,7 @@ Data is sourced from "reservations" array in db.json file
 */
 app.get("/reservations", (req, res) => {
   const data = db.get("reservations").value();
+  console.log(res.json(data))
   if (data) return res.json(data);
 });
 

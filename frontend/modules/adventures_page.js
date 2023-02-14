@@ -70,7 +70,7 @@ function addAdventureToDOM(adventures) {
   }
 }
 
-document.getElementById("click").onclick = async()=>{
+document.getElementById("addToDB").onclick = async()=>{
   let b = window.location.search;
   let arr = b.split("=");
   let city = arr[1];

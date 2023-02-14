@@ -36,7 +36,7 @@ function addReservationToTable(reservations) {
   // 1. Add the Reservations to the HTML DOM so that they show up in the table
   for(let i=0; i<reservations.length; i++){
     let arr = reservations[i].date.split("-")
-    reservations[i].date = `${arr[2]}-${arr[1]}-${arr[0]}`
+    reservations[i].date = `${((arr[2])*1).toString}-${((arr[1])*1).toString}-${arr[0]}`
     let tbody = document.getElementById("reservation-table")
     let arr1 = reservations[i].time.split(" ");
     console.log(arr1)

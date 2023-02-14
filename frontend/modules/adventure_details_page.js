@@ -152,9 +152,15 @@ async function captureFormSubmit(e) {
 function showBannerIfAlreadyReserved(adventure) {
   // TODO: MODULE_RESERVATIONS
   // 1. If user has already reserved this adventure, show the reserved-banner, else don't
+  console.log(adventure.reserved)
   if(adventure.reserved === true){
     let banner = document.getElementById("reserved-banner");
     banner.setAttribute("style", "display : block")
+    banner.setAttribute("role", "alert")
+  }
+  else{
+    let banner = document.getElementById("reserved-banner");
+    banner.setAttribute("style", "display : none")
     banner.setAttribute("role", "alert")
   }
 }

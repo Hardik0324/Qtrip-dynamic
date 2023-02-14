@@ -97,7 +97,7 @@ function addReservationToTable(reservations) {
                           <th scope="col">${reservations[i].date}</th>
                           <th scope="col">${reservations[i].price}</th>
                           <th scope="col">${reservations[i].time}</th>
-                          <th scope="col"><a href=${url}><button class="reservation-visit-button">View Adventure</button></a></th>
+                          <th scope="col" id=${reservations[i].id}><a href=${url}><button class="reservation-visit-button">View Adventure</button></a></th>
                       </tr>`
   }
 }

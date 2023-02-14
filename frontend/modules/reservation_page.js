@@ -87,7 +87,7 @@ function addReservationToTable(reservations) {
         arr1[1] = "December";
         break;
     }
-    reservations[i].time = `${arr1[2]} ${arr1[1]} ${arr1[3]}, ${arr1[4]}`
+    reservations[i].time = `${(arr1[2]*1).toString()} ${arr1[1]} ${arr1[3]}, ${arr1[4]}`
     let url = `../detail/?adventure=${reservations[i].adventure}`
     tbody.innerHTML += `<tr>
                           <th scope="col">${reservations[i].id}</th>

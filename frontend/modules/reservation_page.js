@@ -21,7 +21,7 @@ async function fetchReservations() {
 //Function to add reservations to the table. Also; in case of no reservations, display the no-reservation-banner, else hide it.
 function addReservationToTable(reservations) {
   // TODO: MODULE_RESERVATIONS
-  if(reservations == null){
+  if(reservations == []){
     let a = document.getElementById("reservation-table-parent");
     let b = document.getElementById("no-reservation-banner");
     a.setAttribute("style", "display:none");

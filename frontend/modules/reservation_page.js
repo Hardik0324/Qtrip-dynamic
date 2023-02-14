@@ -23,10 +23,14 @@ function addReservationToTable(reservations) {
   // TODO: MODULE_RESERVATIONS
   if(reservations.length==0){
     let a = document.getElementById("reservation-table-parent");
+    let b = document.getElementById("no-reservation-banner");
     a.setAttribute("style", "display:none");
+    b.setAttribute("style", "display:block");
   }
   else{
     let a = document.getElementById("no-reservation-banner");
+    let b = document.getElementById("reservation-table-parent");
+    b.setAttribute("style", "display:block");
     a.setAttribute("style", "display:none");
   }
   // 1. Add the Reservations to the HTML DOM so that they show up in the table

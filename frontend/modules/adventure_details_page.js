@@ -114,7 +114,7 @@ function calculateReservationCostAndUpdateDOM(adventure, persons) {
 }
 
 //Implementation of reservation form submission
-async function captureFormSubmit(id) {
+async function captureFormSubmit(adventure) {
   // TODO: MODULE_RESERVATIONS
   // 1. Capture the query details and make a POST API call using fetch() to make the reservation
   // 2. If the reservation is successful, show an alert with "Success!" and refresh the page. If the reservation fails, just show an alert with "Failed!".
@@ -134,7 +134,7 @@ async function captureFormSubmit(id) {
         name: name1,
         date: date,
         person: persons,
-        adventure: id,
+        adventure: adventure.id,
       }),
         headers: {
           "Content-Type": "application/json; charset=UTF-8",

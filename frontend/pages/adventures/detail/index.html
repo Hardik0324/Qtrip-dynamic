@@ -58,7 +58,7 @@
                             <a href="../../../" style="color: orange !important">explore.</a>
                         </div>
                         <div id="reservation-panel-available">
-                            <form id="myForm" action="" method=""
+                            <form id="myForm" action="" method="">
                                 <label>Name</label>
                                 <input type="text" class="form-control" name="name" id="name" required />
                                 <br />
@@ -125,8 +125,8 @@
             addAdventureDetailsToDOM(adventureDetails);
             addBootstrapPhotoGallery(adventureDetails.images);
             conditionalRenderingOfReservationPanel(adventureDetails);
+            captureFormSubmit(adventureDetails);
             showBannerIfAlreadyReserved(adventureDetails);
-            captureFormSubmit(adventureDetails)
             function onPersonsChange(event) {
                 calculateReservationCostAndUpdateDOM(
                     adventureDetails,
